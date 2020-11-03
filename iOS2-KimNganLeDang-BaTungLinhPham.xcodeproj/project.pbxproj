@@ -44,7 +44,7 @@
 		9DC306A219E7F1380052F5F1 = {
 			isa = PBXGroup;
 			children = (
-				9DC306AD19E7F1380052F5F1 /* iOS2-Vorgabe */,
+				9DC306AD19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham */,
 				9DC306AC19E7F1380052F5F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DC306AD19E7F1380052F5F1 /* iOS2-Vorgabe */ = {
+		9DC306AD19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham */ = {
 			isa = PBXGroup;
 			children = (
 				9DC306B019E7F1380052F5F1 /* AppDelegate.swift */,
@@ -70,7 +70,7 @@
 				9DC306B919E7F1380052F5F1 /* LaunchScreen.xib */,
 				9DC306AE19E7F1380052F5F1 /* Supporting Files */,
 			);
-			path = "iOS2-Vorgabe";
+			path = "iOS2-KimNganLeDang-BaTungLinhPham";
 			sourceTree = "<group>";
 		};
 		9DC306AE19E7F1380052F5F1 /* Supporting Files */ = {
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-Vorgabe" */;
+			buildConfigurationList = 9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-KimNganLeDang-BaTungLinhPham" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-Vorgabe" */ = {
+		9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-KimNganLeDang-BaTungLinhPham" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DC306C819E7F1380052F5F1 /* Debug */,
