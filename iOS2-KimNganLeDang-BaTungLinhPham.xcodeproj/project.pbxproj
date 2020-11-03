@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS2-Vorgabe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC306AB19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS2-KimNganLeDang-BaTungLinhPham.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC306AF19E7F1380052F5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC306B019E7F1380052F5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC306B219E7F1380052F5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		9DC306AC19E7F1380052F5F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */,
+				9DC306AB19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DC306AA19E7F1380052F5F1 /* iOS2-Vorgabe */ = {
+		9DC306AA19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-Vorgabe" */;
+			buildConfigurationList = 9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-KimNganLeDang-BaTungLinhPham" */;
 			buildPhases = (
 				9DC306A719E7F1380052F5F1 /* Sources */,
 				9DC306A819E7F1380052F5F1 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS2-Vorgabe";
+			name = "iOS2-KimNganLeDang-BaTungLinhPham";
 			productName = "Ue2-Vorgabe";
-			productReference = 9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */;
+			productReference = 9DC306AB19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DC306AA19E7F1380052F5F1 /* iOS2-Vorgabe */,
+				9DC306AA19E7F1380052F5F1 /* iOS2-KimNganLeDang-BaTungLinhPham */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-Vorgabe" */ = {
+		9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-KimNganLeDang-BaTungLinhPham" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DC306CB19E7F1380052F5F1 /* Debug */,
