@@ -17,7 +17,7 @@ class Glyph: Drawing {
     var showDescription: Bool
     
     func paint() {
-        //paint?
+        //TODO
     }
     
     /*computed properties*/
