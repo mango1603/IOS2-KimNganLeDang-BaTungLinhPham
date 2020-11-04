@@ -46,3 +46,9 @@ class GlyphView: UIView {
     }
 
 }
+// aufgabe 5
+// struct Point
+struct Point {
+    var x: Double
+    var y: Double
+}

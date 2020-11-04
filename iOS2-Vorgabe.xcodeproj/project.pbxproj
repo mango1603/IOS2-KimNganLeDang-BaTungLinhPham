@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445DA39625534160000B36B6 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DA39525534160000B36B6 /* Glyph.swift */; };
+		445DA3992553416C000B36B6 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DA3982553416C000B36B6 /* Circle.swift */; };
+		445DA39C25534176000B36B6 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DA39B25534176000B36B6 /* Triangle.swift */; };
+		445DA39F2553417F000B36B6 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DA39E2553417F000B36B6 /* Square.swift */; };
 		9DC306B119E7F1380052F5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC306B019E7F1380052F5F1 /* AppDelegate.swift */; };
 		9DC306B319E7F1380052F5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC306B219E7F1380052F5F1 /* ViewController.swift */; };
 		9DC306B619E7F1380052F5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC306B419E7F1380052F5F1 /* Main.storyboard */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445DA39525534160000B36B6 /* Glyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyph.swift; sourceTree = "<group>"; };
+		445DA3982553416C000B36B6 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		445DA39B25534176000B36B6 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		445DA39E2553417F000B36B6 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS2-Vorgabe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC306AF19E7F1380052F5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC306B019E7F1380052F5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +72,10 @@
 				9DC306B219E7F1380052F5F1 /* ViewController.swift */,
 				9DC306D619E7FF780052F5F1 /* DrawHelper.swift */,
 				9DC306D219E7F4CD0052F5F1 /* GlyphView.swift */,
+				445DA39525534160000B36B6 /* Glyph.swift */,
+				445DA3982553416C000B36B6 /* Circle.swift */,
+				445DA39B25534176000B36B6 /* Triangle.swift */,
+				445DA39E2553417F000B36B6 /* Square.swift */,
 				9DC306D419E7FB810052F5F1 /* Drawing.swift */,
 				9DC306B419E7F1380052F5F1 /* Main.storyboard */,
 				9DC306B719E7F1380052F5F1 /* Images.xcassets */,
@@ -155,11 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445DA3992553416C000B36B6 /* Circle.swift in Sources */,
 				9DC306D519E7FB810052F5F1 /* Drawing.swift in Sources */,
 				9DC306B319E7F1380052F5F1 /* ViewController.swift in Sources */,
 				9DC306D719E7FF780052F5F1 /* DrawHelper.swift in Sources */,
 				9DC306D319E7F4CD0052F5F1 /* GlyphView.swift in Sources */,
+				445DA39625534160000B36B6 /* Glyph.swift in Sources */,
+				445DA39F2553417F000B36B6 /* Square.swift in Sources */,
 				9DC306B119E7F1380052F5F1 /* AppDelegate.swift in Sources */,
+				445DA39C25534176000B36B6 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
