@@ -17,7 +17,10 @@ class Glyph: Drawing {
     var showDescription: Bool
     
     func paint() {
-        //TODO
+        //drawGlyphMethod
+        if showDescription {
+            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
+        }
     }
     
     /*computed properties*/
@@ -30,10 +33,10 @@ class Glyph: Drawing {
         return size
     }
     /*Initializing values*/
-    init(size: Double, color:UIColor,center: Point, showDescription: Bool) {
+    init(size: Double = 1, color:UIColor = UIColor.black ,center: Point = Point(x: 0.0 , y: 0.0), showDescription: Bool = true) {
         self.size = size
         self.center = center
         self.showDescription = showDescription
-        self.color = UIColor.black
+        self.color = color
     }
 }

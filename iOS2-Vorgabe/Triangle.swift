@@ -21,6 +21,9 @@ class Triangle : Glyph{
     }
     
     override func paint(){
-        //TODO
+        DrawHelper.drawTriangle(x: center.x, y: center.y, size: size, color: color)
+        if showDescription {
+            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
+        }
     }
 }

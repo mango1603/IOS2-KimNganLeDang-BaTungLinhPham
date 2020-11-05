@@ -8,6 +8,7 @@
 // aufgabe 7
 
 import Foundation
+
 class Circle : Glyph {
    
     override var area : Double {
@@ -21,6 +22,9 @@ class Circle : Glyph {
     
     override func paint()
     {
-        //TODO
+        DrawHelper.drawCircle(x: center.x, y: center.y, size: size, color: color)
+        if showDescription {
+            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
+        }
     }
 }

@@ -8,6 +8,7 @@
 // aufgabe 7
 
 import Foundation
+
 class Square : Glyph {
     override var area: Double{
         return size*size
@@ -19,7 +20,10 @@ class Square : Glyph {
     
     override func paint()
     {
-        //TODO
+        DrawHelper.drawSquare(x: center.x, y: center.y, size: size, color: color)
+        if showDescription {
+            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
+        }
     }
 }
 
