@@ -15,28 +15,28 @@ class Glyph: Drawing {
     var color: UIColor
     var center: Point
     var showDescription: Bool
+    var index : Int
     
     func paint() {
-        //drawGlyphMethod
-        if showDescription {
-            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
-        }
+       DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
     }
     
     /*computed properties*/
     var area: Double {
         //calculate area
-        return size
+        return 0.0
     }
     var circumference: Double{
         //calculate circumference?
-        return size
+        return 0.0
     }
     /*Initializing values*/
-    init(size: Double = 1, color:UIColor = UIColor.black ,center: Point = Point(x: 0.0 , y: 0.0), showDescription: Bool = true) {
-        self.size = size
-        self.center = center
-        self.showDescription = showDescription
-        self.color = color
+    init(id: Int, gSize: Double, gColor:UIColor, gCenter: Point, gShowDescription: Bool) {
+        self.index = id
+        self.size = gSize
+        self.center = gCenter
+        self.color = gColor
+        self.showDescription = gShowDescription
+        
     }
 }

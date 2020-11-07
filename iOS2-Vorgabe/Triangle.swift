@@ -22,8 +22,7 @@ class Triangle : Glyph{
     
     override func paint(){
         DrawHelper.drawTriangle(x: center.x, y: center.y, size: size, color: color)
-        if showDescription {
-            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
-        }
+        DrawHelper.drawGlyphNumber(index: index, atX: center.x, y: center.y)
+        if showDescription { super.paint() }
     }
 }

@@ -15,15 +15,14 @@ class Square : Glyph {
     }
     
     override var circumference: Double{
-        return (size + size)*2
+        return size*4
     }
     
     override func paint()
     {
         DrawHelper.drawSquare(x: center.x, y: center.y, size: size, color: color)
-        if showDescription {
-            DrawHelper.drawDescription(area: area, circumferrence: circumference, atX: center.x, y: center.y)
-        }
+        DrawHelper.drawGlyphNumber(index: index, atX: center.x, y: center.y)
+        if showDescription { super.paint() }
     }
 }
 
