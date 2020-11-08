@@ -10,19 +10,12 @@ import UIKit
 
 enum GlyphType: Int {
     case square = 0, circle, triangle
-    // Count the number of enums
-    // lines 15->19 from https://stackoverflow.com/questions/27094878/how-do-i-get-the-count-of-a-swift-enum
-        static let count: Int = {
-            var num: Int = 0
-            while let _ = GlyphType(rawValue: num) { num += 1 }
-            return num
-        }()
 }
 
 class GlyphView: UIView {
     
     //create glyphs array
-    var glyphs = [Glyph?](repeating: nil, count: GlyphType.count)
+    var glyphs = [Glyph?](repeating: nil, count: 3)
     
     // MARK: - Change Handlers
     
@@ -34,20 +27,25 @@ class GlyphView: UIView {
         // hint: use a switch statement to deal with different values of type
         // hint: type a single "." after "case " and use the editor's text completion
         let shape = glyphs[index]
-        let center = shape?.center == nil ? Point(x: 0, y: 0) : Point(x: shape!.center.x, y: shape!.center.y)
-        let color = shape?.color == nil ? UIColor.black : shape!.color
+        
+        let defaultSize = 30.0
+        let defaultColor = UIColor.black
+        let defaultPoint = Point(x: 0, y: 0)
+        
+        let center = shape?.center == nil ? defaultPoint : Point(x: shape!.center.x, y: shape!.center.y)
+        let color = shape?.color == nil ? defaultColor : shape!.color
         
         switch type {
         case .square:
-            let size = shape?.size == nil ? 30.0 : shape!.size
+            let size = shape?.size == nil ? defaultSize : shape!.size
             glyphs[index] = Square(id :index, gSize : size, gColor:color, gCenter: center, gShowDescription: false)
             break
         case .circle:
-            let size = shape?.size == nil ? 30.0 : shape!.size
+            let size = shape?.size == nil ? defaultSize : shape!.size
             glyphs[index] = Circle(id :index, gSize : size, gColor:color, gCenter: center, gShowDescription: false)
             break
         case .triangle:
-            let size = shape?.size == nil ? 30.0 : shape!.size
+            let size = shape?.size == nil ? defaultSize : shape!.size
             glyphs[index] = Triangle(id :index, gSize : size, gColor:color, gCenter: center, gShowDescription: false)
             break
         }
